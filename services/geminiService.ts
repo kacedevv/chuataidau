@@ -73,7 +73,7 @@ export const chatWithLiteraryExpert = async (
 
   try {
     const chat = ai.chats.create({
-      model: "gemini-3-pro-preview",
+      model: "gemini-2.5-flash",
       history: history,
       config: {
         systemInstruction:
